@@ -1,0 +1,88 @@
+TASK 4: VM DETECTION AND SYSTEM INFORMATION
+============================================================
+============================================================
+SYSTEM INFORMATION
+============================================================
+
+1. KERNEL INFORMATION:
+-------------------------
+Kernel Version: 6.12.38+kali-amd64
+Kernel Name: Linux
+
+2. USER INFORMATION:
+-------------------------
+Current User: himanshi
+
+3. HARDWARE INFORMATION:
+-------------------------
+CPU Model: Intel(R) Core(TM) i3-10110U CPU @ 2.10GHz
+CPU Cores: 2
+
+4. MEMORY INFORMATION:
+-------------------------
+Total Memory: 3.8Gi
+Used Memory: 796Mi
+Free Memory: 2.8Gi
+
+5. DISK INFORMATION:
+-------------------------
+Filesystem: /dev/sda1
+Total: 24G, Used: 4.7G, Free: 18G
+
+6. OPERATING SYSTEM:
+-------------------------
+OS: Kali GNU/Linux Rolling
+
+============================================================
+VIRTUAL MACHINE DETECTION
+============================================================
+
+1. DMI SYSTEM INFORMATION:
+-------------------------
+DMI check error: stdout and stderr arguments may not be used with capture_output.
+
+2. CPU INFORMATION ANALYSIS:
+-------------------------
+Hypervisor flag: Present (VM indicator)
+CPU Model: Intel(R) Core(TM) i3-10110U CPU @ 2.10GHz
+
+3. KERNEL MODULES CHECK:
+-------------------------
+VM Module vboxguest: Present
+VM Module vmw_balloon: Not present
+VM Module vmw_vmci: Present
+VM Module xen: Not present
+VM Module kvm: Not present
+
+4. SYSTEMD VIRTUALIZATION DETECTION:
+-------------------------
+Systemd Virtualization: oracle (VM detected)
+
+============================================================
+DETECTION ANALYSIS RESULTS
+============================================================
+VIRTUAL MACHINE INDICATORS FOUND:
+  - Hypervisor flag present in CPU info
+  - VM kernel module detected: vboxguest
+  - VM kernel module detected: vmw_vmci
+  - Systemd detected virtualization: oracle
+
+DETECTION RESULT: VIRTUAL MACHINE DETECTED
+CONFIDENCE LEVEL: 100%
+
+============================================================
+FINAL SUMMARY
+============================================================
+CONCLUSION: This system is running in a VIRTUAL MACHINE
+Virtualization technology detected with high confidence
+
+Detection Confidence: 100%
+Total VM indicators found: 4
+
+KEY SYSTEM INFORMATION:
+-------------------------
+Operating System: Kali GNU/Linux Rolling
+Kernel Version: 6.12.38+kali-amd64
+CPU Model: Intel(R) Core(TM) i3-10110U CPU @ 2.10GHz
+CPU Cores: 2
+Total Memory: 3.8Gi

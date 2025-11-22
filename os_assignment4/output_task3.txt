@@ -1,0 +1,438 @@
+total 64
+-rw-rw-r-- 1 himanshi himanshi   429 Nov 23 01:11 batch_processing_log.txt
+-rw-rw-r-- 1 himanshi himanshi  2733 Nov 23 01:11 output_task1.txt
+-rw-rw-r-- 1 himanshi himanshi  3025 Nov 23 01:14 output_task2.txt
+-rw-rw-r-- 1 himanshi himanshi     0 Nov 23 01:22 output_task3.txt
+-rwxr-xr-x 1 himanshi himanshi   330 Nov 23 01:11 program1.py
+-rwxr-xr-x 1 himanshi himanshi   359 Nov 23 01:11 program2.py
+-rwxr-xr-x 1 himanshi himanshi   306 Nov 23 01:11 program3.py
+-rwxr-xr-x 1 himanshi himanshi   309 Nov 23 01:11 program4.py
+-rw-rw-r-- 1 himanshi himanshi  3633 Nov 23 01:14 system_startup_log.txt
+-rwxrwxr-x 1 himanshi himanshi  6439 Nov 23 01:11 task1.py
+-rwxrwxr-x 1 himanshi himanshi  8402 Nov 23 01:13 task2.py
+-rwxrwxr-x 1 himanshi himanshi 10333 Nov 23 01:21 task3.py
+SYSTEM CALLS AND INTER-PROCESS COMMUNICATION
+Running all demonstrations sequentially...
+==================================================
+
+Demonstration 1/6
+=== Basic Fork Example ===
+Child Process: PID = 1833, Parent PID = 1832
+Child is executing...
+Child: Execution completed
+----------------------------------------
+
+Demonstration 2/6
+=== Fork with Exec Example ===
+Parent: Created child process with PID 1834
+Parent waiting for child to finish...
+Parent: Child process finished execution
+----------------------------------------
+
+Demonstration 3/6
+=== Pipe Communication Example ===
+Child: Ready to receive messages...
+Child: Received -> Hello from parent process!
+Child: Received -> This is message number 2
+Child: Received -> Message number 3
+Child: Received -> END
+Child: Received termination signal
+Child: All messages received
+----------------------------------------
+
+Demonstration 4/6
+=== Bidirectional Pipe Communication ===
+Child: Received from parent -> Hello child, how are you?
+Child: Sending to parent -> Hello parent, I'm doing well! Current time: Sun Nov 23 01:22:50 2025
+Child: Communication completed
+----------------------------------------
+
+Demonstration 5/6
+=== Multiple Process Communication ===
+Parent: Sending to child 1 -> Hello Child 1 from parent 1836!
+Parent: Sending to child 2 -> Hello Child 2 from parent 1836!
+Parent: Sending to child 3 -> Hello Child 3 from parent 1836!
+Parent: All children completed
+----------------------------------------
+
+Demonstration 6/6
+=== Process Hierarchy Example ===
+Root Process: PID = 1836
+Root Process: All children and grandchildren completed
+----------------------------------------
+
+==================================================
+ALL DEMONSTRATIONS COMPLETED SUCCESSFULLY
+SYSTEM CALLS AND INTER-PROCESS COMMUNICATION
+Running all demonstrations sequentially...
+==================================================
+
+Demonstration 1/6
+=== Basic Fork Example ===
+Child Process: PID = 1833, Parent PID = 1832
+Child is executing...
+Child: Execution completed
+----------------------------------------
+
+Demonstration 2/6
+=== Fork with Exec Example ===
+Parent: Created child process with PID 1834
+Parent waiting for child to finish...
+Parent: Child process finished execution
+----------------------------------------
+
+Demonstration 3/6
+=== Pipe Communication Example ===
+Child: Ready to receive messages...
+Child: Received -> Hello from parent process!
+Child: Received -> This is message number 2
+Child: Received -> Message number 3
+Child: Received -> END
+Child: Received termination signal
+Child: All messages received
+----------------------------------------
+
+Demonstration 4/6
+=== Bidirectional Pipe Communication ===
+Parent: Sending to child -> Hello child, how are you?
+Parent: Received from child -> Hello parent, I'm doing well! Current time: Sun Nov 23 01:22:50 2025
+Parent: Communication completed
+----------------------------------------
+
+Demonstration 5/6
+=== Multiple Process Communication ===
+Parent: Sending to child 1 -> Hello Child 1 from parent 1835!
+Parent: Sending to child 2 -> Hello Child 2 from parent 1835!
+Parent: Sending to child 3 -> Hello Child 3 from parent 1835!
+Parent: All children completed
+----------------------------------------
+
+Demonstration 6/6
+=== Process Hierarchy Example ===
+Root Process: PID = 1835
+Root Process: All children and grandchildren completed
+----------------------------------------
+
+==================================================
+ALL DEMONSTRATIONS COMPLETED SUCCESSFULLY
+SYSTEM CALLS AND INTER-PROCESS COMMUNICATION
+Running all demonstrations sequentially...
+==================================================
+
+Demonstration 1/6
+=== Basic Fork Example ===
+Child Process: PID = 1833, Parent PID = 1832
+Child is executing...
+Child: Execution completed
+----------------------------------------
+
+Demonstration 2/6
+=== Fork with Exec Example ===
+Parent: Created child process with PID 1834
+Parent waiting for child to finish...
+Parent: Child process finished execution
+----------------------------------------
+
+Demonstration 3/6
+=== Pipe Communication Example ===
+Parent: Sending messages to child...
+Parent: Sending -> Hello from parent process!
+Parent: Sending -> This is message number 2
+Parent: Sending -> Message number 3
+Parent: Sending -> END
+Parent: All messages sent and child completed
+----------------------------------------
+
+Demonstration 4/6
+=== Bidirectional Pipe Communication ===
+Child: Received from parent -> Hello child, how are you?
+Child: Sending to parent -> Hello parent, I'm doing well! Current time: Sun Nov 23 01:23:01 2025
+Child: Communication completed
+----------------------------------------
+
+Demonstration 5/6
+=== Multiple Process Communication ===
+Parent: Sending to child 1 -> Hello Child 1 from parent 1849!
+Parent: Sending to child 2 -> Hello Child 2 from parent 1849!
+Parent: Sending to child 3 -> Hello Child 3 from parent 1849!
+Parent: All children completed
+----------------------------------------
+
+Demonstration 6/6
+=== Process Hierarchy Example ===
+Root Process: PID = 1849
+Root Process: All children and grandchildren completed
+----------------------------------------
+
+==================================================
+ALL DEMONSTRATIONS COMPLETED SUCCESSFULLY
+SYSTEM CALLS AND INTER-PROCESS COMMUNICATION
+Running all demonstrations sequentially...
+==================================================
+
+Demonstration 1/6
+=== Basic Fork Example ===
+Child Process: PID = 1833, Parent PID = 1832
+Child is executing...
+Child: Execution completed
+----------------------------------------
+
+Demonstration 2/6
+=== Fork with Exec Example ===
+Parent: Created child process with PID 1834
+Parent waiting for child to finish...
+Parent: Child process finished execution
+----------------------------------------
+
+Demonstration 3/6
+=== Pipe Communication Example ===
+Parent: Sending messages to child...
+Parent: Sending -> Hello from parent process!
+Parent: Sending -> This is message number 2
+Parent: Sending -> Message number 3
+Parent: Sending -> END
+Parent: All messages sent and child completed
+----------------------------------------
+
+Demonstration 4/6
+=== Bidirectional Pipe Communication ===
+Parent: Sending to child -> Hello child, how are you?
+Parent: Received from child -> Hello parent, I'm doing well! Current time: Sun Nov 23 01:23:01 2025
+Parent: Communication completed
+----------------------------------------
+
+Demonstration 5/6
+=== Multiple Process Communication ===
+Parent: Sending to child 1 -> Hello Child 1 from parent 1833!
+Parent: Sending to child 2 -> Hello Child 2 from parent 1833!
+Parent: Sending to child 3 -> Hello Child 3 from parent 1833!
+Parent: All children completed
+----------------------------------------
+
+Demonstration 6/6
+=== Process Hierarchy Example ===
+Root Process: PID = 1833
+Root Process: All children and grandchildren completed
+----------------------------------------
+
+==================================================
+ALL DEMONSTRATIONS COMPLETED SUCCESSFULLY
+total 72
+-rw-rw-r-- 1 himanshi himanshi   429 Nov 23 01:11 batch_processing_log.txt
+-rw-rw-r-- 1 himanshi himanshi  2733 Nov 23 01:11 output_task1.txt
+-rw-rw-r-- 1 himanshi himanshi  3025 Nov 23 01:14 output_task2.txt
+-rw-rw-r-- 1 himanshi himanshi  7743 Nov 23 01:23 output_task3.txt
+-rwxr-xr-x 1 himanshi himanshi   330 Nov 23 01:11 program1.py
+-rwxr-xr-x 1 himanshi himanshi   359 Nov 23 01:11 program2.py
+-rwxr-xr-x 1 himanshi himanshi   306 Nov 23 01:11 program3.py
+-rwxr-xr-x 1 himanshi himanshi   309 Nov 23 01:11 program4.py
+-rw-rw-r-- 1 himanshi himanshi  3633 Nov 23 01:14 system_startup_log.txt
+-rwxrwxr-x 1 himanshi himanshi  6439 Nov 23 01:11 task1.py
+-rwxrwxr-x 1 himanshi himanshi  8402 Nov 23 01:13 task2.py
+-rwxrwxr-x 1 himanshi himanshi 10333 Nov 23 01:21 task3.py
+SYSTEM CALLS AND INTER-PROCESS COMMUNICATION
+Running all demonstrations sequentially...
+==================================================
+
+Demonstration 1/6
+=== Basic Fork Example ===
+Parent Process: PID = 1832, Child PID = 1833
+Parent is waiting for child to complete...
+Parent: Child process completed
+----------------------------------------
+
+Demonstration 2/6
+=== Fork with Exec Example ===
+Parent: Created child process with PID 1862
+Parent waiting for child to finish...
+Parent: Child process finished execution
+----------------------------------------
+
+Demonstration 3/6
+=== Pipe Communication Example ===
+Child: Ready to receive messages...
+Child: Received -> Hello from parent process!
+Child: Received -> This is message number 2
+Child: Received -> Message number 3
+Child: Received -> END
+Child: Received termination signal
+Child: All messages received
+----------------------------------------
+
+Demonstration 4/6
+=== Bidirectional Pipe Communication ===
+Child: Received from parent -> Hello child, how are you?
+Child: Sending to parent -> Hello parent, I'm doing well! Current time: Sun Nov 23 01:23:18 2025
+Child: Communication completed
+----------------------------------------
+
+Demonstration 5/6
+=== Multiple Process Communication ===
+Parent: Sending to child 1 -> Hello Child 1 from parent 1864!
+Parent: Sending to child 2 -> Hello Child 2 from parent 1864!
+Parent: Sending to child 3 -> Hello Child 3 from parent 1864!
+Parent: All children completed
+----------------------------------------
+
+Demonstration 6/6
+=== Process Hierarchy Example ===
+Root Process: PID = 1864
+Root Process: All children and grandchildren completed
+----------------------------------------
+
+==================================================
+ALL DEMONSTRATIONS COMPLETED SUCCESSFULLY
+SYSTEM CALLS AND INTER-PROCESS COMMUNICATION
+Running all demonstrations sequentially...
+==================================================
+
+Demonstration 1/6
+=== Basic Fork Example ===
+Parent Process: PID = 1832, Child PID = 1833
+Parent is waiting for child to complete...
+Parent: Child process completed
+----------------------------------------
+
+Demonstration 2/6
+=== Fork with Exec Example ===
+Parent: Created child process with PID 1862
+Parent waiting for child to finish...
+Parent: Child process finished execution
+----------------------------------------
+
+Demonstration 3/6
+=== Pipe Communication Example ===
+Child: Ready to receive messages...
+Child: Received -> Hello from parent process!
+Child: Received -> This is message number 2
+Child: Received -> Message number 3
+Child: Received -> END
+Child: Received termination signal
+Child: All messages received
+----------------------------------------
+
+Demonstration 4/6
+=== Bidirectional Pipe Communication ===
+Parent: Sending to child -> Hello child, how are you?
+Parent: Received from child -> Hello parent, I'm doing well! Current time: Sun Nov 23 01:23:18 2025
+Parent: Communication completed
+----------------------------------------
+
+Demonstration 5/6
+=== Multiple Process Communication ===
+Parent: Sending to child 1 -> Hello Child 1 from parent 1863!
+Parent: Sending to child 2 -> Hello Child 2 from parent 1863!
+Parent: Sending to child 3 -> Hello Child 3 from parent 1863!
+Parent: All children completed
+----------------------------------------
+
+Demonstration 6/6
+=== Process Hierarchy Example ===
+Root Process: PID = 1863
+Root Process: All children and grandchildren completed
+----------------------------------------
+
+==================================================
+ALL DEMONSTRATIONS COMPLETED SUCCESSFULLY
+SYSTEM CALLS AND INTER-PROCESS COMMUNICATION
+Running all demonstrations sequentially...
+==================================================
+
+Demonstration 1/6
+=== Basic Fork Example ===
+Parent Process: PID = 1832, Child PID = 1833
+Parent is waiting for child to complete...
+Parent: Child process completed
+----------------------------------------
+
+Demonstration 2/6
+=== Fork with Exec Example ===
+Parent: Created child process with PID 1862
+Parent waiting for child to finish...
+Parent: Child process finished execution
+----------------------------------------
+
+Demonstration 3/6
+=== Pipe Communication Example ===
+Parent: Sending messages to child...
+Parent: Sending -> Hello from parent process!
+Parent: Sending -> This is message number 2
+Parent: Sending -> Message number 3
+Parent: Sending -> END
+Parent: All messages sent and child completed
+----------------------------------------
+
+Demonstration 4/6
+=== Bidirectional Pipe Communication ===
+Child: Received from parent -> Hello child, how are you?
+Child: Sending to parent -> Hello parent, I'm doing well! Current time: Sun Nov 23 01:23:29 2025
+Child: Communication completed
+----------------------------------------
+
+Demonstration 5/6
+=== Multiple Process Communication ===
+Parent: Sending to child 1 -> Hello Child 1 from parent 1883!
+Parent: Sending to child 2 -> Hello Child 2 from parent 1883!
+Parent: Sending to child 3 -> Hello Child 3 from parent 1883!
+Parent: All children completed
+----------------------------------------
+
+Demonstration 6/6
+=== Process Hierarchy Example ===
+Root Process: PID = 1883
+Root Process: All children and grandchildren completed
+----------------------------------------
+
+==================================================
+ALL DEMONSTRATIONS COMPLETED SUCCESSFULLY
+SYSTEM CALLS AND INTER-PROCESS COMMUNICATION
+Running all demonstrations sequentially...
+==================================================
+
+Demonstration 1/6
+=== Basic Fork Example ===
+Parent Process: PID = 1832, Child PID = 1833
+Parent is waiting for child to complete...
+Parent: Child process completed
+----------------------------------------
+
+Demonstration 2/6
+=== Fork with Exec Example ===
+Parent: Created child process with PID 1862
+Parent waiting for child to finish...
+Parent: Child process finished execution
+----------------------------------------
+
+Demonstration 3/6
+=== Pipe Communication Example ===
+Parent: Sending messages to child...
+Parent: Sending -> Hello from parent process!
+Parent: Sending -> This is message number 2
+Parent: Sending -> Message number 3
+Parent: Sending -> END
+Parent: All messages sent and child completed
+----------------------------------------
+
+Demonstration 4/6
+=== Bidirectional Pipe Communication ===
+Parent: Sending to child -> Hello child, how are you?
+Parent: Received from child -> Hello parent, I'm doing well! Current time: Sun Nov 23 01:23:29 2025
+Parent: Communication completed
+----------------------------------------
+
+Demonstration 5/6
+=== Multiple Process Communication ===
+Parent: Sending to child 1 -> Hello Child 1 from parent 1832!
+Parent: Sending to child 2 -> Hello Child 2 from parent 1832!
+Parent: Sending to child 3 -> Hello Child 3 from parent 1832!
+Parent: All children completed
+----------------------------------------
+
+Demonstration 6/6
+=== Process Hierarchy Example ===
+Root Process: PID = 1832
+Root Process: All children and grandchildren completed
+----------------------------------------
+
+==================================================
+ALL DEMONSTRATIONS COMPLETED SUCCESSFULLY

@@ -1,0 +1,226 @@
+
+============================================================
+CPU SCHEDULING ALGORITHMS SIMULATOR
+============================================================
+1. Input Custom Processes
+2. Use Sample Processes
+3. First Come First Serve (FCFS)
+4. Shortest Job First (SJF)
+5. Priority Scheduling
+6. Round Robin Scheduling
+7. Compare All Algorithms
+8. Exit
+
+Enter your choice (1-8): Invalid choice! Please enter 1-8.
+
+Press Enter to continue...
+============================================================
+CPU SCHEDULING ALGORITHMS SIMULATOR
+============================================================
+1. Input Custom Processes
+2. Use Sample Processes
+3. First Come First Serve (FCFS)
+4. Shortest Job First (SJF)
+5. Priority Scheduling
+6. Round Robin Scheduling
+7. Compare All Algorithms
+8. Exit
+
+Enter your choice (1-8): Using sample processes:
+P1: AT=0, BT=8, Priority=3
+P2: AT=1, BT=4, Priority=1
+P3: AT=2, BT=9, Priority=4
+P4: AT=3, BT=5, Priority=2
+
+Press Enter to continue...
+============================================================
+CPU SCHEDULING ALGORITHMS SIMULATOR
+============================================================
+1. Input Custom Processes
+2. Use Sample Processes
+3. First Come First Serve (FCFS)
+4. Shortest Job First (SJF)
+5. Priority Scheduling
+6. Round Robin Scheduling
+7. Compare All Algorithms
+8. Exit
+
+Enter your choice (1-8): 
+============================================================
+SHORTEST JOB FIRST (SJF) SCHEDULING
+============================================================
+
+PID	Arrival	Burst	Priority	Waiting	Turnaround
+------------------------------------------------------------
+P1	0	8	3		0	8
+P2	1	4	1		7	11
+P3	2	9	4		15	24
+P4	3	5	2		9	14
+------------------------------------------------------------
+Average Waiting Time: 7.75
+Average Turnaround Time: 14.25
+
+GANTT CHART:
+--------------------------------------------------
+ P1  P2  P4  P3 
+0---8---12---17---26
+
+Press Enter to continue...
+============================================================
+CPU SCHEDULING ALGORITHMS SIMULATOR
+============================================================
+1. Input Custom Processes
+2. Use Sample Processes
+3. First Come First Serve (FCFS)
+4. Shortest Job First (SJF)
+5. Priority Scheduling
+6. Round Robin Scheduling
+7. Compare All Algorithms
+8. Exit
+
+Enter your choice (1-8): 
+============================================================
+ROUND ROBIN SCHEDULING
+============================================================
+Enter time quantum: 
+PID	Arrival	Burst	Priority	Waiting	Turnaround
+------------------------------------------------------------
+P1	0	8	3		16	24
+P2	1	4	1		6	10
+P3	2	9	4		15	24
+P4	3	5	2		15	20
+------------------------------------------------------------
+Average Waiting Time: 13.00
+Average Turnaround Time: 19.50
+
+GANTT CHART:
+--------------------------------------------------
+ P1  P2  P3  P4  P1  P3 
+0---7---11---18---23---24---26
+
+Press Enter to continue...
+============================================================
+CPU SCHEDULING ALGORITHMS SIMULATOR
+============================================================
+1. Input Custom Processes
+2. Use Sample Processes
+3. First Come First Serve (FCFS)
+4. Shortest Job First (SJF)
+5. Priority Scheduling
+6. Round Robin Scheduling
+7. Compare All Algorithms
+8. Exit
+
+Enter your choice (1-8): 
+======================================================================
+COMPARISON OF ALL SCHEDULING ALGORITHMS
+======================================================================
+
+============================================================
+FIRST COME FIRST SERVE (FCFS) SCHEDULING
+============================================================
+
+PID	Arrival	Burst	Priority	Waiting	Turnaround
+------------------------------------------------------------
+P1	0	8	3		0	8
+P2	1	4	1		7	11
+P3	2	9	4		10	19
+P4	3	5	2		18	23
+------------------------------------------------------------
+Average Waiting Time: 8.75
+Average Turnaround Time: 15.25
+
+GANTT CHART:
+--------------------------------------------------
+ P1  P2  P3  P4 
+0---8---12---21---26
+
+============================================================
+SHORTEST JOB FIRST (SJF) SCHEDULING
+============================================================
+
+PID	Arrival	Burst	Priority	Waiting	Turnaround
+------------------------------------------------------------
+P1	0	8	3		0	8
+P2	1	4	1		7	11
+P3	2	9	4		15	24
+P4	3	5	2		9	14
+------------------------------------------------------------
+Average Waiting Time: 7.75
+Average Turnaround Time: 14.25
+
+GANTT CHART:
+--------------------------------------------------
+ P1  P2  P4  P3 
+0---8---12---17---26
+
+============================================================
+PRIORITY SCHEDULING (Non-preemptive)
+============================================================
+
+PID	Arrival	Burst	Priority	Waiting	Turnaround
+------------------------------------------------------------
+P1	0	8	3		0	8
+P2	1	4	1		7	11
+P3	2	9	4		15	24
+P4	3	5	2		9	14
+------------------------------------------------------------
+Average Waiting Time: 7.75
+Average Turnaround Time: 14.25
+
+GANTT CHART:
+--------------------------------------------------
+ P1  P2  P4  P3 
+0---8---12---17---26
+
+============================================================
+ROUND ROBIN SCHEDULING
+============================================================
+Enter time quantum: 
+PID	Arrival	Burst	Priority	Waiting	Turnaround
+------------------------------------------------------------
+P1	0	8	3		16	24
+P2	1	4	1		6	10
+P3	2	9	4		15	24
+P4	3	5	2		15	20
+------------------------------------------------------------
+Average Waiting Time: 13.00
+Average Turnaround Time: 19.50
+
+GANTT CHART:
+--------------------------------------------------
+ P1  P2  P3  P4  P1  P3 
+0---7---11---18---23---24---26
+
+======================================================================
+SUMMARY COMPARISON
+======================================================================
+Algorithm		Avg Waiting Time	Avg Turnaround Time
+----------------------------------------------------------------------
+FCFS                13.00               19.50               
+SJF                 13.00               19.50               
+Priority            13.00               19.50               
+Round Robin         13.00               19.50               
+
+----------------------------------------------------------------------
+Best for Waiting Time: FCFS (Avg WT: 13.00)
+Best for Turnaround Time: FCFS (Avg TAT: 19.50)
+
+Press Enter to continue...
+============================================================
+CPU SCHEDULING ALGORITHMS SIMULATOR
+============================================================
+1. Input Custom Processes
+2. Use Sample Processes
+3. First Come First Serve (FCFS)
+4. Shortest Job First (SJF)
+5. Priority Scheduling
+6. Round Robin Scheduling
+7. Compare All Algorithms
+8. Exit
+
+Enter your choice (1-8): 
+============================================================
+ROUND ROBIN SCHEDULING
+============================================================
+Enter time quantum: 

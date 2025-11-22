@@ -1,0 +1,95 @@
+BATCH PROCESSING SIMULATION - SEQUENTIAL EXECUTION
+============================================================
+Setting up batch processing environment...
+
+BATCH CONFIGURATION:
+Total programs in batch: 4
+Execution mode: Sequential
+Working directory: /home/himanshi/os_assignment4
+
+STARTING SEQUENTIAL BATCH EXECUTION
+
+BATCH JOB 1/4
+
+============================================================
+RUNNING: Number Processing Task
+FILE: program1.py
+============================================================
+OUTPUT:
+=== PROGRAM 1: Number Processing ===
+Even numbers: [2, 4, 6, 8, 10]
+Odd numbers: [1, 3, 5, 7, 9]
+Program 1 completed successfully!
+
+SUCCESS: Number Processing Task completed in 0.01 seconds
+
+Batch processor preparing next job...
+
+BATCH JOB 2/4
+
+============================================================
+RUNNING: File Operations Task
+FILE: program2.py
+============================================================
+OUTPUT:
+=== PROGRAM 2: File Operations ===
+Simulating file operations...
+Creating sample data...
+Processing item 1: Apple
+Processing item 2: Banana
+Processing item 3: Cherry
+Processing item 4: Date
+Processing item 5: Elderberry
+Program 2 completed successfully!
+
+SUCCESS: File Operations Task completed in 2.02 seconds
+
+Batch processor preparing next job...
+
+BATCH JOB 3/4
+
+============================================================
+RUNNING: Mathematical Calculations Task
+FILE: program3.py
+============================================================
+OUTPUT:
+=== PROGRAM 3: Mathematical Calculations ===
+Performing mathematical operations:
+Square root of 64: 8.0
+Factorial of 5: 120
+Value of pi: 3.1416
+Program 3 completed successfully!
+
+SUCCESS: Mathematical Calculations Task completed in 0.01 seconds
+
+Batch processor preparing next job...
+
+BATCH JOB 4/4
+
+============================================================
+RUNNING: String Manipulation Task
+FILE: program4.py
+============================================================
+OUTPUT:
+=== PROGRAM 4: String Manipulation ===
+Original text: batch processing simulation in python
+Uppercase: BATCH PROCESSING SIMULATION IN PYTHON
+Title case: Batch Processing Simulation In Python
+Word count: 5
+Program 4 completed successfully!
+
+SUCCESS: String Manipulation Task completed in 0.03 seconds
+
+============================================================
+BATCH PROCESSING COMPLETE - SUMMARY REPORT
+============================================================
+Batch Start Time: Sun Nov 23 01:11:50 2025
+Batch End Time: Sun Nov 23 01:11:55 2025
+Total Execution Time: 5.13 seconds
+Programs Executed: 4
+Successful Executions: 4
+Failed Executions: 0
+Success Rate: 100.0%
+
+Detailed log saved to: batch_processing_log.txt
+Batch processing simulation completed!
